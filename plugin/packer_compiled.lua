@@ -258,7 +258,7 @@ _G.packer_plugins = {
     url = "https://github.com/ahmedkhalf/project.nvim"
   },
   ["rust-tools.nvim"] = {
-    config = { "\27LJ\2\n·\1\0\2\b\1\v\0\0236\2\0\0009\2\1\0029\2\2\2'\4\3\0'\5\4\0-\6\0\0009\6\5\0069\6\5\0065\a\6\0=\1\a\aB\2\5\0016\2\0\0009\2\1\0029\2\2\2'\4\3\0'\5\b\0-\6\0\0009\6\t\0069\6\t\0065\a\n\0=\1\a\aB\2\5\1K\0\1\0\0À\1\0\0\22code_action_group\14<Leader>a\vbuffer\1\0\0\18hover_actions\14<C-space>\6n\bset\vkeymap\bvimÎ\1\1\0\6\0\f\0\0166\0\0\0'\2\1\0B\0\2\0029\1\2\0005\3\6\0005\4\3\0003\5\4\0=\5\5\4=\4\a\0035\4\t\0005\5\b\0=\5\n\4=\4\v\3B\1\2\0012\0\0€K\0\1\0\ntools\16inlay_hints\1\0\0\1\0\2\27parameter_hints_prefix\b<- \23other_hints_prefix\b=> \vserver\1\0\0\14on_attach\0\1\0\1\15standalone\2\nsetup\15rust-tools\frequire\0" },
+    config = { "\27LJ\2\n·\1\0\2\b\1\v\0\0236\2\0\0009\2\1\0029\2\2\2'\4\3\0'\5\4\0-\6\0\0009\6\5\0069\6\5\0065\a\6\0=\1\a\aB\2\5\0016\2\0\0009\2\1\0029\2\2\2'\4\3\0'\5\b\0-\6\0\0009\6\t\0069\6\t\0065\a\n\0=\1\a\aB\2\5\1K\0\1\0\0À\1\0\0\22code_action_group\14<Leader>a\vbuffer\1\0\0\18hover_actions\14<C-space>\6n\bset\vkeymap\bvimÎ\1\1\0\6\0\f\0\0166\0\0\0'\2\1\0B\0\2\0029\1\2\0005\3\6\0005\4\3\0003\5\4\0=\5\5\4=\4\a\0035\4\t\0005\5\b\0=\5\n\4=\4\v\3B\1\2\0012\0\0€K\0\1\0\ntools\16inlay_hints\1\0\0\1\0\2\23other_hints_prefix\b=> \27parameter_hints_prefix\b<- \vserver\1\0\0\14on_attach\0\1\0\1\15standalone\2\nsetup\15rust-tools\frequire\0" },
     load_after = {},
     loaded = true,
     needs_bufread = true,
@@ -276,7 +276,7 @@ _G.packer_plugins = {
     url = "https://github.com/akinsho/toggleterm.nvim"
   },
   ["trouble.nvim"] = {
-    config = { "\27LJ\2\nÆ\1\0\0\4\0\6\0\t6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\4\0=\3\5\2B\0\2\1K\0\1\0\nsigns\1\0\4\thint\thint\16information\tinfo\fwarning\twarn\nerror\nerror\1\0\5\17indent_lines\1\25use_diagnostic_signs\1\16fold_closed\6>\14fold_open\6v\nicons\1\nsetup\ftrouble\frequire\0" },
+    config = { "\27LJ\2\nÆ\1\0\0\4\0\6\0\t6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\4\0=\3\5\2B\0\2\1K\0\1\0\nsigns\1\0\4\thint\thint\nerror\nerror\fwarning\twarn\16information\tinfo\1\0\5\nicons\1\17indent_lines\1\25use_diagnostic_signs\1\16fold_closed\6>\14fold_open\6v\nsetup\ftrouble\frequire\0" },
     loaded = true,
     path = "/home/phusitsom/.local/share/nvim/site/pack/packer/start/trouble.nvim",
     url = "https://github.com/folke/trouble.nvim"
@@ -310,7 +310,7 @@ try_loadstring("\27LJ\2\n@\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K
 time([[Config for leap.nvim]], false)
 -- Config for: trouble.nvim
 time([[Config for trouble.nvim]], true)
-try_loadstring("\27LJ\2\nÆ\1\0\0\4\0\6\0\t6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\4\0=\3\5\2B\0\2\1K\0\1\0\nsigns\1\0\4\thint\thint\16information\tinfo\fwarning\twarn\nerror\nerror\1\0\5\17indent_lines\1\25use_diagnostic_signs\1\16fold_closed\6>\14fold_open\6v\nicons\1\nsetup\ftrouble\frequire\0", "config", "trouble.nvim")
+try_loadstring("\27LJ\2\nÆ\1\0\0\4\0\6\0\t6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\4\0=\3\5\2B\0\2\1K\0\1\0\nsigns\1\0\4\thint\thint\nerror\nerror\fwarning\twarn\16information\tinfo\1\0\5\nicons\1\17indent_lines\1\25use_diagnostic_signs\1\16fold_closed\6>\14fold_open\6v\nsetup\ftrouble\frequire\0", "config", "trouble.nvim")
 time([[Config for trouble.nvim]], false)
 -- Load plugins in order defined by `after`
 time([[Sequenced loading]], true)
@@ -324,7 +324,7 @@ vim.cmd [[ packadd mason-lspconfig.nvim ]]
 vim.cmd [[ packadd rust-tools.nvim ]]
 
 -- Config for: rust-tools.nvim
-try_loadstring("\27LJ\2\n·\1\0\2\b\1\v\0\0236\2\0\0009\2\1\0029\2\2\2'\4\3\0'\5\4\0-\6\0\0009\6\5\0069\6\5\0065\a\6\0=\1\a\aB\2\5\0016\2\0\0009\2\1\0029\2\2\2'\4\3\0'\5\b\0-\6\0\0009\6\t\0069\6\t\0065\a\n\0=\1\a\aB\2\5\1K\0\1\0\0À\1\0\0\22code_action_group\14<Leader>a\vbuffer\1\0\0\18hover_actions\14<C-space>\6n\bset\vkeymap\bvimÎ\1\1\0\6\0\f\0\0166\0\0\0'\2\1\0B\0\2\0029\1\2\0005\3\6\0005\4\3\0003\5\4\0=\5\5\4=\4\a\0035\4\t\0005\5\b\0=\5\n\4=\4\v\3B\1\2\0012\0\0€K\0\1\0\ntools\16inlay_hints\1\0\0\1\0\2\27parameter_hints_prefix\b<- \23other_hints_prefix\b=> \vserver\1\0\0\14on_attach\0\1\0\1\15standalone\2\nsetup\15rust-tools\frequire\0", "config", "rust-tools.nvim")
+try_loadstring("\27LJ\2\n·\1\0\2\b\1\v\0\0236\2\0\0009\2\1\0029\2\2\2'\4\3\0'\5\4\0-\6\0\0009\6\5\0069\6\5\0065\a\6\0=\1\a\aB\2\5\0016\2\0\0009\2\1\0029\2\2\2'\4\3\0'\5\b\0-\6\0\0009\6\t\0069\6\t\0065\a\n\0=\1\a\aB\2\5\1K\0\1\0\0À\1\0\0\22code_action_group\14<Leader>a\vbuffer\1\0\0\18hover_actions\14<C-space>\6n\bset\vkeymap\bvimÎ\1\1\0\6\0\f\0\0166\0\0\0'\2\1\0B\0\2\0029\1\2\0005\3\6\0005\4\3\0003\5\4\0=\5\5\4=\4\a\0035\4\t\0005\5\b\0=\5\n\4=\4\v\3B\1\2\0012\0\0€K\0\1\0\ntools\16inlay_hints\1\0\0\1\0\2\23other_hints_prefix\b=> \27parameter_hints_prefix\b<- \vserver\1\0\0\14on_attach\0\1\0\1\15standalone\2\nsetup\15rust-tools\frequire\0", "config", "rust-tools.nvim")
 
 time([[Sequenced loading]], false)
 

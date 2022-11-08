@@ -193,9 +193,10 @@ return packer.startup(function(use)
 	})
 
 	-- tools
-	--leap
 	use({ "tpope/vim-fugitive" })
 	use({ "kylechui/nvim-surround" })
+
+	--leap
 	use({
 		"ggandor/leap.nvim",
 		config = function()
