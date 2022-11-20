@@ -1,3 +1,5 @@
+local _, nvim_lsp = pcall(require, "lspconfig")
+
 local M = {}
 
 local status_cmp_ok, cmp_nvim_lsp = pcall(require, "cmp_nvim_lsp")
@@ -87,5 +89,12 @@ M.on_attach = function(client, bufnr)
 	end
 	illuminate.on_attach(client)
 end
+
+nvim_lsp.tsserver.setup({
+	on_attach = M.on_attach,
+	capabilities = M.capabilities,
+	filetypes = { "javascript", "javascriptreact", "javascript.jsx", "typescript", "typescriptreact", "typescript.tsx" },
+	cmd = { "typescript-language-server", "--stdio" },
+})
 
 return M
